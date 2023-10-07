@@ -1,0 +1,44 @@
+.col-lg-3{
+    margin-top: 40px;
+}
+.col-lg-3 a:hover{
+    background-color: rgba(255, 255, 161, 0.8);
+}
+
+.card, img{
+    background-position: top;
+   text-align: left;
+    background-size: contain;
+}
+
+.overlayer{
+    background: transparent;
+    height: 100%;
+    width: 96%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.overlayer:hover{
+    background: 
+    rgba(255, 255, 161, 0.8);
+}
+
+.overlayer, h4{
+    width: 96%;
+    bottom: 0;
+    transform: translate(2%, 0%);
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    font-size: 24px;
+    font-weight: 650;
+}
+
+.overlayer:hover, h4{
+    opacity: 1;
+}
